@@ -8,6 +8,7 @@ header{
 
   hr{
     margin-top: 1.5rem;
+   
     width: 26.5em; 
     height: 1rem;
     background-color: var(--secondarycolor)
@@ -15,24 +16,33 @@ header{
 
 h1{
 width: 100%;
-margin: 0;
+
 
 }
 h2{
-  font-size: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+h3{
+  text-align: end;
+  font-size: 5vh;
+  padding-left: 4em;
+  margin: 0
 }
 .this-text{
 text-align: center;
 font-size: 3em;
+width: 100%;
 
 }
-
-/* p{
-  width: 60%;
-  text-align: center;
+ p{
+  width: 80%;
   
-} */
+  
+ }
 .header{
+  width: 100%;
+  padding-right: 15rem;
   color: white;
   height: 10vh;
   display: flex;
@@ -42,8 +52,11 @@ font-size: 3em;
   width: 50%;
   flex-direction: column;
   padding-left: 8em;
+  justify-content: center;
 }
-
+.right-column{
+  width: 30%;
+}
 .d-flex{
 display: flex
 }
@@ -51,15 +64,27 @@ body{
   margin: 0;
 }
 img{
-  padding-top:  2em;
-  padding-left: 49em;
+  margin-left: 4rem;
+  padding-top: 3rem;
   height: 15em;
   width: 22em;
-}
+} */
 
 section{
-  height: 3em;
+  /* height: 3em; */
 }
 .justify-content-center{
   justify-content: center;
+}
+.text-align{
+  width: 80%;
+  flex-direction: column; 
+  margin-left: 9rem;
+  margin-top: 0;
+}
+.footer{
+  /* display: flex;
+  flex-direction: row; */
+  height: 6em;
+  background-color: var(--primarycolor);
 }
