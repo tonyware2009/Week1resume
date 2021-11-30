@@ -1,22 +1,37 @@
 :root {
   --primarycolor: blue;
+  --secondarycolor: skyblue;
 }
 header{
   background-color: var(--primarycolor)
 }
 
-   
+  hr{
+    margin-top: 1.5rem;
+    width: 26.5em; 
+    height: 1rem;
+    background-color: var(--secondarycolor)
+  } 
 
 h1{
 width: 100%;
 margin: 0;
 
 }
+h2{
+  font-size: 2rem;
+}
 .this-text{
 text-align: center;
 font-size: 3em;
 
 }
+
+/* p{
+  width: 60%;
+  text-align: center;
+  
+} */
 .header{
   color: white;
   height: 10vh;
@@ -24,12 +39,27 @@ font-size: 3em;
   align-items: center;
 }
 .left-column{
-  text-align: center;
+  width: 50%;
+  flex-direction: column;
+  padding-left: 8em;
 }
 
 .d-flex{
-
+display: flex
 }
 body{
   margin: 0;
+}
+img{
+  padding-top:  2em;
+  padding-left: 49em;
+  height: 15em;
+  width: 22em;
+}
+
+section{
+  height: 3em;
+}
+.justify-content-center{
+  justify-content: center;
 }
