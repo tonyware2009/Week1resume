@@ -1,12 +1,28 @@
-header{
-  background-color: blue;
+:root {
+  --primarycolor: blue;
 }
-h1{
-  color: white;
-  text-align: center;
-  height: 2.5em;
+header{
+  background-color: var(--primarycolor)
 }
 
+   
+
+h1{
+width: 100%;
+margin: 0;
+
+}
+.this-text{
+text-align: center;
+font-size: 3em;
+
+}
+.header{
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
 .left-column{
   text-align: center;
 }
