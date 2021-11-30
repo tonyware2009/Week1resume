@@ -9,7 +9,7 @@ header{
   hr{
     margin-top: 1.5rem;
    
-    width: 26.5em; 
+    width: 32.5em; 
     height: 1rem;
     background-color: var(--secondarycolor)
   } 
@@ -37,7 +37,7 @@ width: 100%;
 }
  p{
   width: 80%;
-  
+  padding-left: 5rem
   
  }
 .header{
@@ -59,6 +59,7 @@ width: 100%;
 }
 .d-flex{
 display: flex
+
 }
 body{
   margin: 0;
@@ -68,7 +69,7 @@ img{
   padding-top: 3rem;
   height: 15em;
   width: 22em;
-} */
+} 
 
 section{
   /* height: 3em; */
@@ -79,7 +80,7 @@ section{
 .text-align{
   width: 80%;
   flex-direction: column; 
-  margin-left: 9rem;
+  margin-left: 4rem;
   margin-top: 0;
 }
 .footer{
